@@ -1,15 +1,53 @@
+.body {
+  position: relative;
+  background: url(../images/back.jpg) no-repeat fixed;
+}
+.section, .section-alt {
+  padding: 50px 0px;
+  margin: 0px;
+}
+.section {
+  background-color: #ffffff;
+}
+.section-alt {
+  color: #ffffff;
+  background-color: #e14658;
+}
+.navbar {
+  background-color: #22252c;
+}
+.home {
+  padding: 10% 10% 10% 20%;
+  height: 600px;
+}
+.cont {
+  width: 400px;
+  height: 400px;
+  float: left;
+  background-color: #ffffff;
+  opacity: 1;
+}
+#navex li a {
+  color: #ffffff;
+}
+#navex li a:hover {
+  background-color: #e14658;
+}
+.active {
+  background-color: #e14658;
+}
 .cd-top {
   display: inline-block;
   height: 40px;
   width: 40px;
   position: fixed;
   bottom: 40px;
-  right: 10px;
+  right: 3%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #a0a0a0 url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  background: #e14658 url(../images/cd-top-arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -29,5 +67,5 @@
   opacity: .5;
 }
 .cd-top:hover {
-  background-color: #404040;
+  background-color: #e14658;
 }
