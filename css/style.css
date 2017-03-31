@@ -10,7 +10,7 @@
 }
 .section-alt {
   color: #ffffff;
-  background-color: #003366;
+  background-color: #d3d3d3;
 }
 .navbar {
   background-color: #22252c;
@@ -30,10 +30,10 @@
   color: #ffffff;
 }
 #navex li a:hover {
-  background-color: #003366;
+  background-color: #d3d3d3;
 }
 .active {
-  background-color: #003366;
+  background-color: #d3d3d3;
 }
 .cd-top {
   display: inline-block;
